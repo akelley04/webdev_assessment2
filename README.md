@@ -1,7 +1,7 @@
 # webdev_assessment2
 npm install nodemon, express, mongoose, body-parser, dotenv, joi, jsonwebtoken, bcryptjs
 
-**POST /register** : register a new user
+**POST /users/register** : register a new user
 **Request Body**:  
    {
      "name": "Anna",
@@ -9,7 +9,7 @@ npm install nodemon, express, mongoose, body-parser, dotenv, joi, jsonwebtoken, 
      "password": "123456"
    }
 
-**POST /login** : login an existing user, receive a token
+**POST /users/login** : login an existing user, receive a token
 **Request Body**: 
    {
      "email": "anna@example.com",
