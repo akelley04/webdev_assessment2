@@ -1,6 +1,14 @@
 # webdev_assessment2  
-npm install nodemon, express, mongoose, body-parser, dotenv, joi, jsonwebtoken, bcryptjs  
-
+-npm init  
+-npm install nodemon, express, mongoose, body-parser, dotenv, joi, jsonwebtoken, bcryptjs  
+-Adjust the `start` file in the package.json  
+    "scripts": {  
+        "start": "nodemon app.js"  
+    }  
+- Run using `npm start`
+  
+URL - http://localhost:3000 (postman: localhost:3000)   
+  
 **POST /users/register** : register a new user  
 **Request Body**:  
    {  
